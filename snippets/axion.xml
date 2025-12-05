@@ -100,6 +100,7 @@
   <remove-project path="system/update_engine" />
   <remove-project path="system/vold" />
   <remove-project path="vendor/lineage" />
+  <remove-project path="vendor/qcom/opensource/vibrator" />
 
   <!-- Android Manifest  -->
   <project path="android" name="android" remote="axion" />
@@ -231,5 +232,6 @@
   <project path="vendor/addons" name="android_vendor_addons" remote="axion" />
   <project path="vendor/gapps" name="vendor_gapps" remote="axion-gitlab" revision="baklava" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="axion" />
-  <project path="vendor/official_devices" name="official_devices" remote="axion" revision="main" />
+  <project path="vendor/official_devices" name="official_devices" remote="axion" revision="main" />  
+  <project path="vendor/qcom/opensource/vibrator" name="Rve27/android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" />
 </manifest>
